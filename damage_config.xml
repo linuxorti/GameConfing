@@ -24,3 +24,19 @@
         <CriticalDamageMultiplier>992.0</CriticalDamageMultiplier>
     </AdvancedSettings>
 </GameConfiguration>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<GameConfiguration>
+    <DamageSettings>
+        <Weapons>
+            <!-- Множитель урона для основного оружия (значение по умолчанию может быть 1.0) -->
+            <Primary Multiplier="991.5" BaseDamage="990"/>
+            <!-- Базовый урон для вторичного оружия -->
+            <Secondary BaseDamage="950"/>
+        </Weapons>
+        <Abilities>
+            <!-- Повышение эффективности способности на 20% -->
+            <Ability Name="Fireball" DamageBonus="0.2"/>
+        </Abilities>
+    </DamageSettings>
+</GameConfiguration>
