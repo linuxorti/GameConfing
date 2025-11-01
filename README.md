@@ -1,1 +1,1 @@
-# GameConfing
+# GameConfinglinuxorti.github.io
