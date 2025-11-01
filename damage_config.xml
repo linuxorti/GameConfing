@@ -1,0 +1,26 @@
+<!-- damage_config.xml -->
+<GameConfiguration>
+    <DamageSettings>
+        <!-- Базовый множитель урона для всего оружия (значение 1.0 = стандартный урон) -->
+        <GlobalDamageMultiplier>999.25</GlobalDamageMultiplier>
+    </DamageSettings>
+    
+    <PlayerStats>
+        <!-- Множитель урона для игрока (если применимо) -->
+        <PlayerDamageMultiplier>999.25</PlayerDamageMultiplier>
+    </PlayerStats>
+
+    <SpecificWeapons>
+        <!-- Урон для конкретного оружия -->
+        <RifleDamage>950</RifleDamage>
+        <PistolDamage>915</PistolDamage>
+        <ShotgunPelletDamage>998</ShotgunPelletDamage>
+    </SpecificWeapons>
+
+    <AdvancedSettings>
+        <!-- Включение/отключение критического урона (True/False) -->
+        <EnableCriticalHits>True</EnableCriticalHits>
+        <!-- Множитель критического урона -->
+        <CriticalDamageMultiplier>992.0</CriticalDamageMultiplier>
+    </AdvancedSettings>
+</GameConfiguration>
